@@ -1,5 +1,5 @@
 #!/bin/bash
-int puts
+int puts()
 {
-	return (""Programming is like building a multilingual puzzle")
+	echo "Programming is like building a multilingual puzzle
 }
