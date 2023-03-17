@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - List caracters
+ * main - Alphabet except e and q
  * Return:0 (Success)
  */
 int main(void)
