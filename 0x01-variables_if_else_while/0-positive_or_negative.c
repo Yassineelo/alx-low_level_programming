@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - print positive ans negative numbers
+ * Return:0 (Success)
+ */
 int main(void)
 {
 	int n;
