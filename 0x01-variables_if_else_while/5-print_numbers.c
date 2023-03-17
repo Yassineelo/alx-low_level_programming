@@ -7,6 +7,7 @@
 int main(void)
 {
 	int i;
+	
 	i = 0;
 
 	while (i < 10)
@@ -15,5 +16,5 @@ int main(void)
 		i++;
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
