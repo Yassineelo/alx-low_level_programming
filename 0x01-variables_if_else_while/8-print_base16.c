@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i;
-	char j;
 
 	i = 0;
 	while (i < 16)
