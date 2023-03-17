@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * mais - greater than 5 and less than 6
+ * main - greater than 5 and less than 6
  * Return:0 (Success)
  */
 int main(void)
