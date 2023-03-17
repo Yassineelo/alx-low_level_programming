@@ -9,11 +9,9 @@ int main()
 	int i;
 	int j;
 
-	i = 0;
-	j = 0;
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		while (j < 10)
+		for (j = 0; j < 10; j++)
 		{
 			putchar(i);
 			putchar(j);
@@ -22,8 +20,6 @@ int main()
 				putchar(',');
 				putchar(' ');
 			}
-			j++;
-		i++;
 		}
 	}
 	return (0);
