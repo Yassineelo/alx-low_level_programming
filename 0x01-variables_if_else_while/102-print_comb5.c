@@ -17,6 +17,7 @@ int main(void)
 			int b  = i % 10;
 			int c = j / 10;
 			int d = j % 10;
+
 			if (i < j)
 			{
 				putchar(a + '0');
