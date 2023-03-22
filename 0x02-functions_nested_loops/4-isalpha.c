@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - alphabetic character
+ * @c : for check
  * Return: 1 if alphabetic or 0 if others
  */
 
