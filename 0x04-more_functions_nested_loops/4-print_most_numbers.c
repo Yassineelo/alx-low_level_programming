@@ -7,11 +7,13 @@
 
 void print_numbers(void)
 {
-	int i;
-
-	for (i = '0'; i <= '9'; i++)
+	for (int i = 0; i <= 9; i++)
 	{
-		_putchar(i);
+		if (i != 2 || i != 4)
+		{
+			_putchar(i + '0');
+		}
 	}
 	_putchar('\n');
 }
+
