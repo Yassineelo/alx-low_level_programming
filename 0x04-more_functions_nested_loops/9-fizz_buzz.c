@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main -prints Fizz Buzz
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
 	int i;
