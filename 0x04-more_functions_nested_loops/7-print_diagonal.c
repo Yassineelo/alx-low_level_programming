@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - print diagonal line
+ * @n: number of times to print diagonal
  * Return: void
  */
 
