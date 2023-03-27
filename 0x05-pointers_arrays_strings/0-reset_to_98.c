@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - update value of n
+ * @n : parameter to be updated
  * return: void
  */
 
