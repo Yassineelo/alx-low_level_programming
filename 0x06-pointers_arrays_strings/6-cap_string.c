@@ -29,8 +29,7 @@ char *cap_string(char *str)
 		str[i - 1] == 123 ||
 		str[i - 1] == 125 ||
 		i == 0)
-			str[i] = str[i] - 32;
-		
+			str[i] = str[i] - 32;	
 		i++;
 	}
 	return (str);
