@@ -19,6 +19,7 @@ char *rot13(char *str)
 			if (str[i] == leet1[j])
 			{
 				str[i] = leet2[j];
+				break;
 			}
 		}
 	}
