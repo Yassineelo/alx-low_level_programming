@@ -20,6 +20,7 @@ int main(int argc, char **argv)
 		if (!isdigit(*argv[1]) || !isdigit(*argv[2]))
 		{
 			printf("Error\n");
+			return (1);
 		}
 		else
 		{
