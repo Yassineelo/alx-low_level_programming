@@ -9,7 +9,8 @@
  */
 int main(int argc, char **argv)
 {
-	int res;
+	int res = 0;
+	int i;
 
 	if (argc < 2)
 	{
@@ -17,19 +18,22 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		if (!isdigit(*argv[1]) || !isdigit(*argv[2]))
+		for (i = 1; i < argc; i++)
 		{
-			printf("Error\n");
-			return (1);
-		}
-		else
-		{
-			if (atoi(argv[1]) >= 0 && atoi(argv[2]) >= 0)
+			if (!isdigit(*argv[i]))
 			{
-				res = atoi(argv[1]) + atoi(argv[2]);
-				printf("%d\n", res);
+				printf("Error\n");
+				return (1);
+			}
+			else
+			{
+				if (atoi(argv[i]) >= 0)
+				{
+					res = res + atoi(argv[i]);
+				}
 			}
 		}
 	}
+	printf("%d\n", res);
 	return (0);
 }
