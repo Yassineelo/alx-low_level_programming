@@ -17,6 +17,6 @@ int main(int argc, char **argv)
 	printf("%d\n", res);
 	return (0);
 	}
-	printf("Error");
+	printf("Error\n");
 	return (-1);
 }
